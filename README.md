@@ -52,5 +52,20 @@ Press CTRL+C to quit
 ```
 Congratulations! It means API is running successfully in your local system. Hit url - http://127.0.0.1:5000/ in your browser or Postman tool to get below JSON response -
 ```JSON
-{"Game": "Tic Tac Toe", "Status": "In Progress", "Winner": null, "GameBoardState": {"Box 1": null, "Box 2": null, "Box 3": null, "Box 4": null, "Box 5": null, "Box 6": null, "Box 7": null, "Box 8": null, "Box 9": null}}
+{
+  "Game": "Tic Tac Toe", 
+  "Status": "In Progress", 
+  "Winner": null, 
+  "GameBoardState": {
+    "Box 1": null, 
+    "Box 2": null, 
+    "Box 3": null, 
+    "Box 4": null, 
+    "Box 5": null, 
+    "Box 6": null, 
+    "Box 7": null, 
+    "Box 8": null, 
+    "Box 9": null
+    }
+}
 ```
